@@ -14,7 +14,7 @@ Ce projet a consisté à modéliser et simuler un convertisseur continu-continu 
 
 | Catégorie | Outils/Compétences |
 | :--- | :--- |
-| **Simulation** | **MATLAB/Simulink** ou **PSIM** (Choisissez celui utilisé) |
+| **Simulation** | **MATLAB/Simulink**  |
 | **Domaine** | Électronique de puissance, DC-DC Conversion, Hacheurs |
 | **Analyse** | Analyse des circuits, Théorie de la commande PWM |
 
