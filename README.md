@@ -40,5 +40,5 @@ Matlab/Simulink • TIA Portal • Arduino IDE • Python • Proteus • AutoCA
 ---
 
 ## 📫 Me contacter
-- 📧 **ayoub.abourich@email.com**
+- 📧 **ayoub.abourich@gmail.com**
 - 🔗 [LinkedIn](https://www.linkedin.com/in/ayoub-abourich-9a056b306/)
