@@ -13,8 +13,7 @@ Quatre approches ont été modélisées et comparées sous **MATLAB/Simulink** :
 ## 📂 Structure du Dossier
 * `Modeles_Simulink/` : Contient les schémas blocs interactifs (.slx) pour chaque type de commande.
 * `Scripts_MATLAB/` : Scripts de génération de données, d'entraînement des modèles RNA/SVR et d'initialisation des paramètres du panneau.
-* `Resultats/` : Captures d'écran des courbes de performances (puissance, tension, temps de réponse).
-* `Presentation_Projet.pdf` : Support de présentation détaillant l'étude comparative.
+* `Resultats_et_Docs/` : Captures d'écran des courbes de performances (puissance, tension, temps de réponse) et Support de présentation détaillant l'étude comparative.
 
 ## 🛠️ Outils et Compétences
 * **Logiciels :** MATLAB, Simulink.
