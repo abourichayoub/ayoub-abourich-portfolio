@@ -51,4 +51,4 @@ Mon portfolio est organisé autour de mes quatre domaines d'expertise principaux
 N'hésitez pas à explorer mes codes et à me contacter pour discuter d'opportunités de collaboration ou de recrutement !
 
 * **Email :** [abourich.ayoub@gmail.com](mailto:abourich.ayoub@gmail.com)
-* **LinkedIn :** [https://www.linkedin.com/in/ayoub-abourich-9a056b306/]
+* **LinkedIn :** https://www.linkedin.com/in/ayoub-abourich-9a056b306/
