@@ -1,0 +1,26 @@
+# 👁️ Traitement_Image_Python : Du Traitement Classique au Deep Learning (YOLOv8)
+
+## 📌 Contexte du Projet
+Ce projet complet illustre la chaîne de traitement d'images de bout en bout en utilisant **Python**. L'objectif est d'explorer les techniques fondamentales de vision artificielle avant d'appliquer des modèles d'intelligence artificielle de pointe pour la détection et la classification d'objets.
+
+## 🚀 Étapes du Pipeline de Traitement
+
+### Partie 1 : Traitement d'Image Fondamental (skimage / OpenCV)
+* **Conversion en Niveaux de Gris :** Réduction de la dimensionnalité pour simplifier l'analyse spatiale.
+* **Égalisation d'Histogramme :** Amélioration du contraste pour mettre en évidence les détails dans des conditions d'éclairage non idéales.
+* **Segmentation :** Séparation des objets d'intérêt du fond de l'image (seuillage).
+* **Détection de Contours :** Extraction des caractéristiques géométriques et des frontières des objets.
+
+### Partie 2 : Intelligence Artificielle et Classification
+* **Classification avec YOLOv8 :** Implémentation du modèle *You Only Look Once* (version 8) pour une détection et classification d'objets en temps réel avec une haute précision.
+
+## 📂 Structure du Répertoire
+* `1_Traitement_Classique/` : Scripts Python illustrant les filtres, la segmentation et l'extraction de contours.
+* `2_Classification_YOLOv8/` : Code d'implémentation du réseau de neurones et traitement des boîtes englobantes (bounding boxes).
+* `Images_Test/` : Base d'images utilisée pour valider les algorithmes (avant/après traitement).
+
+## 🛠️ Outils et Bibliothèques
+* **Langage :** Python.
+* **Computer Vision :** scikit-image, OpenCV.
+* **Deep Learning :** Ultralytics (YOLOv8), PyTorch.
+* **Analyse de données :** NumPy, Matplotlib.
