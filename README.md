@@ -1,45 +1,54 @@
-# 👨‍🔧 Ayoub Abourich — Portfolio technique
+# 👨‍💻 Portfolio d'Ingénierie | Ayoub Abourich
 
-🎓 Étudiant ingénieur en **Génie Électrique** à l'**Ecole Marocaine d'Ingénierie (EMG Rabat)**  
-🔧 Spécialisation : **Automatique, Robotique et Informatique Industrielle**  
-📅 Promotion 2026
+Bienvenue sur mon portfolio GitHub ! 
 
----
+Je suis actuellement **élève ingénieur en 5ème année de Génie Électrique**, spécialisé en **Automatique, Robotique et Informatique Industrielle** à l'EMG Rabat. 
 
-## 💡 Domaines de compétences
-- Automatisation industrielle (Siemens, Schneider, Ladder, Grafcet)
-- Robotique et commande de moteurs (PID, Arduino, microcontrôleurs)
-- Simulation et modélisation (Matlab/Simulink)
-- Programmation (Python, C, Script d’automatisation)
-- Supervision et IoT (Node-RED, Modbus, MQTT)
+Passionné par l'industrie 4.0, le contrôle-commande et l'intelligence artificielle appliquée, je conçois et valide des systèmes complexes allant du matériel embarqué jusqu'à la supervision haut niveau. 
+
+🎓 **Diplôme d'Ingénieur prévu en :** Juillet 2026  
+🌍 **Mobilité :** Ouvert aux opportunités professionnelles en Europe (premier emploi / V.I.E).
 
 ---
 
-## 🚀 Projets techniques
+## 📂 Mes Projets et Réalisations
 
-### ⚙️ Commande d’un moteur DC par régulateur PID (Arduino)
-- Conception d’un asservissement de vitesse
-- Réglage PID et visualisation via interface série
-- 🔗 [Code source](./Robotique/PID_Arduino_Moteur_DC)
+Mon portfolio est organisé autour de mes quatre domaines d'expertise principaux. Cliquez sur les dossiers pour explorer les codes sources, les modèles de simulation et les documentations :
 
-### 🏭 Automatisation d’un convoyeur industriel (PLC Siemens)
-- Programmation Ladder sur TIA Portal
-- Simulation avec Factory I/O
-- 🔗 [Projet complet](./Automation/Projet_PLC_Siemens)
+### 1. [🧠 Commandes Intelligentes](./Commandes_intelligentes)
+* **Projet Phare :** Optimisation MPPT (Maximum Power Point Tracking) pour systèmes photovoltaïques.
+* **Techniques :** Commandes classique (P&O), Machine Learning (SVR), Deep Learning (RNA) et Commande Hybride.
+* **Outils :** MATLAB, Simulink.
 
-### ⚡ Simulation d’une alimentation Push-Pull
-- Conception sur Matlab/Simulink
-- Étude du rendement et filtrage de sortie
-- 🔗 [Fichier Simulink](./Energie_Electrique/Simulation_Convertisseur_PushPull)
+### 2. [🤖 Robotique Industrielle](./Robotique)
+* **Projet Phare :** Modélisation et programmation de robots manipulateurs.
+* **Techniques :** Modèle Géométrique Inverse (MGI) par optimisation numérique, Programmation hors-ligne (Offline Programming).
+* **Outils :** MATLAB, ABB RobotStudio (RAPID).
+
+### 3. [👁️ Traitement d'Image et Vision par Ordinateur](./Traitement_Image_Python)
+* **Projet Phare :** Pipeline complet de vision artificielle et détection d'objets.
+* **Techniques :** Traitement classique (filtrage, segmentation, contours) et Deep Learning pour la classification.
+* **Outils :** Python, OpenCV, scikit-image, YOLOv8.
+
+### 4. [🏭 Automation & Informatique Industrielle](./Automation)
+* **Projet Phare :** Systèmes de supervision et architectures embarquées.
+* **Techniques :** Interfaces Homme-Machine (IHM), programmation de microcontrôleurs (C), interfaçage de puissance.
+* **Outils :** Siemens TIA Portal, microcontrôleurs PIC, MikroC, Proteus ISIS.
 
 ---
 
-## 🧰 Outils et logiciels
-Matlab/Simulink • TIA Portal • Arduino IDE • Python • Proteus • AutoCAD Electrical • Git/GitHub
+## 🛠️ Compétences Techniques 
+
+* **Automatique & Systèmes :** Régulation PID, Logique Floue, Modélisation dynamique.
+* **Langages de Programmation :** Python, C, MATLAB, RAPID.
+* **Logiciels & Outils Industriels :** MATLAB/Simulink, Siemens TIA Portal, Proteus, ABB RobotStudio.
+* **Intelligence Artificielle :** Réseaux de Neurones, SVR, YOLOv8.
 
 ---
 
-## 📫 Me contacter
-- 📧 **ayoub.abourich@gmail.com**
-- 📞 **+212 6 11 55 46 50**
-- 🔗 [LinkedIn](https://www.linkedin.com/in/ayoub-abourich-9a056b306/)
+## 📫 Me Contacter
+
+N'hésitez pas à explorer mes codes et à me contacter pour discuter d'opportunités de collaboration ou de recrutement !
+
+* **Email :** [abourich.ayoub@gmail.com](mailto:abourich.ayoub@gmail.com)
+* **LinkedIn :** [Insérez votre lien LinkedIn ici]
