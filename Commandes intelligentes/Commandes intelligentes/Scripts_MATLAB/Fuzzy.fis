@@ -1,0 +1,54 @@
+[System]
+Name='Fuzzy'
+Type='mamdani'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=10
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='lom'
+
+[Input1]
+Name='input1'
+Range=[0 1100]
+NumMFs=10
+MF1='VS':'trapmf',[0 0 100 200]
+MF2='MS':'trimf',[100 200 300]
+MF3='S':'trimf',[200 300 400]
+MF4='BS':'trimf',[300 400 500]
+MF5='SM':'trimf',[400 500 600]
+MF6='BM':'trimf',[500 600 700]
+MF7='VSB':'trimf',[600 700 800]
+MF8='SB':'trimf',[700 800 900]
+MF9='B':'trimf',[800 900 1000]
+MF10='VB':'trapmf',[900 1000 1000 1100]
+
+[Output1]
+Name='output1'
+Range=[0 1]
+NumMFs=10
+MF1='vs':'trapmf',[0 0 0.13 0.24]
+MF2='ms':'trimf',[0.13 0.24 0.34]
+MF3='s':'trimf',[0.24 0.34 0.41]
+MF4='bs':'trimf',[0.341760563380282 0.411760563380282 0.481760563380282]
+MF5='sm':'trimf',[0.41 0.48 0.53]
+MF6='bm':'trimf',[0.48 0.53 0.58]
+MF7='vsb':'trimf',[0.53 0.58 0.64]
+MF8='sb':'trimf',[0.58 0.64 0.67]
+MF9='b':'trimf',[0.64 0.67 0.73]
+MF10='vb':'trapmf',[0.67 0.73 0.73 1]
+
+[Rules]
+1, 1 (1) : 1
+2, 2 (1) : 1
+3, 3 (1) : 1
+4, 4 (1) : 1
+5, 5 (1) : 1
+6, 6 (1) : 1
+7, 7 (1) : 1
+8, 8 (1) : 1
+9, 9 (1) : 1
+10, 10 (1) : 1
