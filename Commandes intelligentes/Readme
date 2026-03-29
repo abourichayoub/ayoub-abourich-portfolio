@@ -4,23 +4,25 @@
 Ce projet a été réalisé dans le cadre du module de Commandes Intelligentes. L'objectif principal est de concevoir, simuler et comparer différentes stratégies de commande pour l'extraction de la puissance maximale (MPPT) d'un système photovoltaïque. Le défi consiste à maintenir un rendement optimal face aux variations brusques des conditions météorologiques (irradiance et température).
 
 ## ⚙️ Stratégies de Commande Développées
-Quatre approches ont été modélisées et comparées sous **MATLAB/Simulink** :
+Cinq approches ont été modélisées et comparées sous **MATLAB/Simulink** :
 * **Commande P&O (Perturber et Observer) :** Algorithme classique de référence, simple à implémenter mais sujet aux oscillations autour du point de fonctionnement.
+* **Logique Floue (Fuzzy Logic Control) :** Commande robuste basée sur des règles linguistiques (Erreur et Variation de l'Erreur). Elle offre une excellente réponse dynamique et élimine les oscillations sans nécessiter le modèle mathématique exact du panneau.
 * **Réseaux de Neurones Artificiels (RNA) :** Modèle prédictif entraîné sur des données météorologiques pour estimer quasi-instantanément la tension optimale.
 * **Support Vector Regression (SVR) :** Algorithme d'apprentissage automatique offrant une excellente capacité de généralisation et de robustesse face aux données non linéaires.
 * **Commande Hybride (IA + P&O) :** Une architecture innovante combinant la rapidité de prédiction de l'IA (pour s'approcher de la zone optimale) et la précision algorithmique du P&O (pour la recherche fine locale), éliminant ainsi les oscillations en régime permanent.
 
 ## 📂 Structure du Dossier
 * `Modeles_Simulink/` : Contient les schémas blocs interactifs (.slx) pour chaque type de commande.
-* `Scripts_MATLAB/` : Scripts de génération de données, d'entraînement des modèles RNA/SVR et d'initialisation des paramètres du panneau.
-* `Resultats_et_Docs/` : Captures d'écran des courbes de performances (puissance, tension, temps de réponse) et Support de présentation détaillant l'étude comparative.
+* `Scripts_MATLAB/` : Scripts de génération de données, d'entraînement des modèles RNA/SVR, d'initialisation des paramètres et les fichiers d'inférence floue (.fis).
+* `Resultats/` : Captures d'écran des courbes de performances (puissance, tension, temps de réponse).
+* `Presentation_Projet.pdf` : Support de présentation détaillant l'étude comparative.
 
 ## 🛠️ Outils et Compétences
-* **Logiciels :** MATLAB, Simulink.
-* **Compétences :** Automatique avancée, Machine Learning (RNA, SVR), Énergies Renouvelables, Modélisation de systèmes dynamiques.
+* **Logiciels :** MATLAB, Simulink, Fuzzy Logic Toolbox.
+* **Compétences :** Automatique avancée, Logique Floue, Machine Learning (RNA, SVR), Énergies Renouvelables, Modélisation de systèmes dynamiques.
 
 ## 🚀 Instructions d'Exécution
 1. Ouvrir MATLAB.
-2. Lancer le script d'initialisation `Scripts_MATLAB/init_parametres.m`.
+2. Lancer le script d'initialisation `Scripts_MATLAB/init_parametres.m` (et charger le contrôleur flou via le fichier `.fis` si nécessaire).
 3. Ouvrir le modèle `Modeles_Simulink/systeme_global.slx`.
 4. Lancer la simulation et observer les scopes pour comparer les temps de réponse et la stabilité de chaque commande.
