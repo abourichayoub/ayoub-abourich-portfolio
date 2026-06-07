@@ -1,7 +1,7 @@
 # 🏭 Projets d'Automatisation Industrielle et Systèmes Embarqués
 
 ## 📌 Présentation
-Ce répertoire regroupe plusieurs projets appliqués en informatique industrielle et automatisation. L'objectif de ces travaux est de concevoir et valider des chaînes de commande complètes : de la programmation bas niveau sur microcontrôleurs (logique matérielle) jusqu'à la supervision haut niveau sur des standards industriels (IHM/API).
+Ce répertoire regroupe plusieurs projets appliqués en informatique industrielle et automatisation. L'objectif de ces travaux est de concevoir et valider des chaînes de commande complètes : de la programmation bas niveau sur microcontrôleurs (logique matérielle) jusqu'à la supervision haut niveau sur des standards industriels (IHM/API/Simulation 3D).
 
 ## ⚙️ Projets Développés
 
@@ -25,8 +25,13 @@ Ce répertoire regroupe plusieurs projets appliqués en informatique industriell
 * **Description :** Interfaçage entre une logique de commande basse tension et un actionneur de puissance.
 * **Réalisations :** Commande d'un moteur DC 36V à partir des signaux 5V d'un microcontrôleur PIC, en utilisant un circuit d'entraînement en pont en H (H-bridge driver).
 
+### 5. Cellule d'Usinage Parallèle (Virtual Commissioning)
+* **Dossier :** `Cellule_Usinage_FactoryIO/`
+* **Description :** Automatisation et mise en service virtuelle d'une double cellule d'usinage robotisée asynchrone.
+* **Réalisations :** Développement d'une architecture LADDER à 16 réseaux pour gérer 94 variables sur un automate SIMATIC S7-1500, couplage réseau via accès PUT/GET avec le logiciel de simulation 3D **Factory I/O**, et validation des interverrouillages de sécurité et de la traçabilité par comptage en temps réel.
+
 ## 🛠️ Outils et Technologies Utilisés
-* **Automatisme Industriel :** Siemens TIA Portal (IHM, API).
+* **Automatisme Industriel & Simulation 3D :** Siemens TIA Portal (API S7-1500, LADDER, IHM), Factory I/O, S7-PLCSIM Advanced.
 * **Systèmes Embarqués :** Microcontrôleurs PIC, MikroC PRO for PIC, Langage C.
 * **Simulation Électronique :** Proteus ISIS.
-* **Compétences :** Logique combinatoire et séquentielle, interfaçage de puissance, réseaux industriels.
+* **Compétences :** Logique combinatoire et séquentielle, parallélisme asynchrone, interfaçage de puissance, réseaux industriels (communication PUT/GET), mise en service virtuelle (Virtual Commissioning).
